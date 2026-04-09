@@ -3,36 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="InDEX – Desarrollamos sistemas, webs y automatizaciones con IA para que tu negocio crezca. Argentina." />
-  <title>InDEX · Software que impulsa negocios</title>
-
-  <!-- Fuentes -->
+  <title>TradixIA – Software & Automatización Inteligente | Rosario, Argentina</title>
+  <meta name="description" content="Desarrollamos sistemas a medida, páginas web y automatizamos tu negocio con IA. Rosario, Santa Fe, Argentina." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-
-  <!-- Íconos -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <!-- Estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ===================== NAVBAR ===================== -->
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
   <header class="navbar" id="navbar">
-    <div class="container navbar__inner">
-      <a href="#" class="navbar__logo">
-        <span class="logo-bracket">[</span>InDEX<span class="logo-bracket">]</span>
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">TradixIA</span>
       </a>
-      <nav class="navbar__links" id="navLinks">
+      <nav class="nav-links" id="navLinks">
         <a href="#servicios">Servicios</a>
         <a href="#proceso">Proceso</a>
-        <a href="#demos">Demos</a>
+        <a href="#productos">Productos</a>
         <a href="#testimonios">Clientes</a>
-        <a href="#contacto" class="btn btn--outline btn--sm">Contacto</a>
+        <a href="#contacto" class="btn btn-outline btn-sm">Contacto</a>
       </nav>
-      <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menú">
+      <button class="hamburger" id="hamburger" aria-label="Menú">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -40,598 +36,627 @@
 
   <main>
 
-    <!-- ===================== HERO ===================== -->
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
     <section class="hero" id="inicio">
-      <!-- Fondo decorativo -->
-      <div class="hero__grid-bg" aria-hidden="true"></div>
-      <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
-      <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+      <!-- Decorative grid background -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Glowing orbs -->
+      <div class="orb orb-1" aria-hidden="true"></div>
+      <div class="orb orb-2" aria-hidden="true"></div>
 
-      <div class="container hero__inner">
-        <div class="hero__content reveal">
-          <span class="hero__eyebrow">
-            <span class="dot"></span> Desarrollo de software · Argentina
-          </span>
-          <h1 class="hero__title">
-            Creamos sistemas que<br />
-            <em>hacen crecer</em><br />
-            tu negocio.
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span>
+            Rosario · Santa Fe · Argentina
+          </div>
+          <h1 class="hero-title reveal reveal-delay-1">
+            Sistemas que hacen<br />
+            <span class="gradient-text">crecer tu negocio</span>
           </h1>
-          <p class="hero__subtitle">
-            Páginas web, sistemas a medida, automatizaciones con IA e integraciones con WhatsApp, MercadoPago y más. Tecnología real, resultados concretos.
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Desarrollamos software a medida, páginas web de alto rendimiento<br />
+            y automatizamos tus procesos con Inteligencia Artificial.
           </p>
-          <div class="hero__ctas">
-            <a href="#contacto" class="btn btn--primary btn--lg">
-              <i class="fa-solid fa-rocket"></i> Solicitar demo gratis
+          <div class="hero-cta reveal reveal-delay-3">
+            <a href="#contacto" class="btn btn-primary btn-lg">
+              Solicitar demo gratuita
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
-            <a href="#servicios" class="btn btn--ghost btn--lg">
-              Ver servicios <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            <a href="#servicios" class="btn btn-ghost btn-lg">Ver servicios</a>
           </div>
-          <div class="hero__stats">
+          <!-- Stats -->
+          <div class="hero-stats reveal reveal-delay-4">
             <div class="stat">
-              <span class="stat__num">+80</span>
-              <span class="stat__label">Proyectos entregados</span>
+              <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Proyectos entregados</span>
             </div>
-            <div class="stat__divider"></div>
+            <div class="stat-divider"></div>
             <div class="stat">
-              <span class="stat__num">+40</span>
-              <span class="stat__label">Clientes activos</span>
+              <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">Clientes satisfechos</span>
             </div>
-            <div class="stat__divider"></div>
+            <div class="stat-divider"></div>
             <div class="stat">
-              <span class="stat__num">5★</span>
-              <span class="stat__label">Valoración promedio</span>
+              <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Años de experiencia</span>
             </div>
           </div>
         </div>
 
-        <!-- Mockup visual del hero -->
-        <div class="hero__visual reveal reveal--delay-2">
-          <div class="mockup">
-            <div class="mockup__bar">
-              <span class="mockup__dot mockup__dot--red"></span>
-              <span class="mockup__dot mockup__dot--yellow"></span>
-              <span class="mockup__dot mockup__dot--green"></span>
-              <span class="mockup__url">index.app / dashboard</span>
+        <!-- Hero visual / mockup -->
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="mockup-window">
+            <div class="mockup-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="mockup-url">app.tradixia.com/dashboard</span>
             </div>
-            <div class="mockup__body">
-              <div class="mockup__sidebar">
-                <div class="mockup__nav-item mockup__nav-item--active"><i class="fa-solid fa-gauge-high"></i></div>
-                <div class="mockup__nav-item"><i class="fa-solid fa-users"></i></div>
-                <div class="mockup__nav-item"><i class="fa-solid fa-chart-line"></i></div>
-                <div class="mockup__nav-item"><i class="fa-solid fa-calendar"></i></div>
-                <div class="mockup__nav-item"><i class="fa-solid fa-gear"></i></div>
+            <div class="mockup-body">
+              <!-- Fake dashboard -->
+              <div class="mock-sidebar">
+                <div class="mock-logo-small"></div>
+                <div class="mock-nav-item active"></div>
+                <div class="mock-nav-item"></div>
+                <div class="mock-nav-item"></div>
+                <div class="mock-nav-item"></div>
+                <div class="mock-nav-item"></div>
               </div>
-              <div class="mockup__content">
-                <div class="mockup__header">
-                  <div class="mockup__title-block">
-                    <div class="mockup__line mockup__line--title"></div>
-                    <div class="mockup__line mockup__line--subtitle"></div>
-                  </div>
-                  <div class="mockup__badge">En vivo</div>
+              <div class="mock-main">
+                <div class="mock-header-row">
+                  <div class="mock-title-block"></div>
+                  <div class="mock-btn-block"></div>
                 </div>
-                <div class="mockup__cards">
-                  <div class="mockup__card mockup__card--accent">
-                    <div class="mockup__card-label">Ventas hoy</div>
-                    <div class="mockup__card-value">$284.500</div>
-                    <div class="mockup__card-trend"><i class="fa-solid fa-arrow-trend-up"></i> +18%</div>
+                <div class="mock-kpis">
+                  <div class="mock-kpi">
+                    <div class="mock-kpi-icon blue"></div>
+                    <div class="mock-kpi-lines">
+                      <div class="mock-line w60"></div>
+                      <div class="mock-line w40 accent"></div>
+                    </div>
                   </div>
-                  <div class="mockup__card">
-                    <div class="mockup__card-label">Clientes nuevos</div>
-                    <div class="mockup__card-value">34</div>
-                    <div class="mockup__card-trend"><i class="fa-solid fa-arrow-trend-up"></i> +7%</div>
+                  <div class="mock-kpi">
+                    <div class="mock-kpi-icon green"></div>
+                    <div class="mock-kpi-lines">
+                      <div class="mock-line w50"></div>
+                      <div class="mock-line w30 accent"></div>
+                    </div>
                   </div>
-                  <div class="mockup__card">
-                    <div class="mockup__card-label">Turnos</div>
-                    <div class="mockup__card-value">12</div>
-                    <div class="mockup__card-trend neutral"><i class="fa-solid fa-minus"></i> estable</div>
+                  <div class="mock-kpi">
+                    <div class="mock-kpi-icon purple"></div>
+                    <div class="mock-kpi-lines">
+                      <div class="mock-line w70"></div>
+                      <div class="mock-line w45 accent"></div>
+                    </div>
                   </div>
                 </div>
-                <div class="mockup__chart-area">
-                  <div class="mockup__chart-bar" style="--h: 60%"></div>
-                  <div class="mockup__chart-bar" style="--h: 75%"></div>
-                  <div class="mockup__chart-bar" style="--h: 50%"></div>
-                  <div class="mockup__chart-bar" style="--h: 90%"></div>
-                  <div class="mockup__chart-bar" style="--h: 70%"></div>
-                  <div class="mockup__chart-bar mockup__chart-bar--active" style="--h: 85%"></div>
+                <div class="mock-chart">
+                  <div class="mock-bars">
+                    <div class="mock-bar" style="--h:40%"></div>
+                    <div class="mock-bar" style="--h:65%"></div>
+                    <div class="mock-bar" style="--h:45%"></div>
+                    <div class="mock-bar" style="--h:80%"></div>
+                    <div class="mock-bar" style="--h:55%"></div>
+                    <div class="mock-bar" style="--h:90%"></div>
+                    <div class="mock-bar" style="--h:70%"></div>
+                  </div>
+                </div>
+                <div class="mock-table">
+                  <div class="mock-row header-row">
+                    <div class="mock-cell w30"></div>
+                    <div class="mock-cell w20"></div>
+                    <div class="mock-cell w25"></div>
+                    <div class="mock-cell w15"></div>
+                  </div>
+                  <div class="mock-row"><div class="mock-cell w30"></div><div class="mock-cell w20"></div><div class="mock-cell w25 accent-light"></div><div class="mock-cell w15"></div></div>
+                  <div class="mock-row"><div class="mock-cell w30"></div><div class="mock-cell w20"></div><div class="mock-cell w25"></div><div class="mock-cell w15"></div></div>
+                  <div class="mock-row"><div class="mock-cell w30"></div><div class="mock-cell w20"></div><div class="mock-cell w25"></div><div class="mock-cell w15 accent-light"></div></div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Floating chips -->
-          <div class="chip chip--1"><i class="fa-brands fa-whatsapp"></i> WhatsApp conectado</div>
-          <div class="chip chip--2"><i class="fa-solid fa-brain"></i> IA activa</div>
-          <div class="chip chip--3"><i class="fa-solid fa-shield-halved"></i> Seguro</div>
-        </div>
-      </div>
-
-      <!-- Logos clientes (trust bar) -->
-      <div class="trust-bar reveal">
-        <div class="container">
-          <p class="trust-bar__label">Tecnologías que dominamos</p>
-          <div class="trust-bar__logos">
-            <span><i class="fa-brands fa-python"></i> Python</span>
-            <span><i class="fa-brands fa-react"></i> React</span>
-            <span><i class="fa-brands fa-node-js"></i> Node.js</span>
-            <span><i class="fa-solid fa-database"></i> PostgreSQL</span>
-            <span><i class="fa-brands fa-docker"></i> Docker</span>
-            <span><i class="fa-solid fa-cloud"></i> Cloud</span>
-            <span><i class="fa-brands fa-whatsapp"></i> WhatsApp API</span>
-            <span><i class="fa-solid fa-credit-card"></i> MercadoPago</span>
+          <!-- Floating badge -->
+          <div class="floating-badge badge-top">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Automatización activa
+          </div>
+          <div class="floating-badge badge-bottom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            IA procesando datos
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== SERVICIOS ===================== -->
-    <section class="servicios section" id="servicios">
+    <!-- ============================================================
+         SERVICIOS
+    ============================================================ -->
+    <section class="section" id="servicios">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">// Servicios</span>
-          <h2 class="section-title">Todo lo que tu negocio<br /><em>necesita digitalmente</em></h2>
-          <p class="section-sub">Desde una landing page hasta un sistema empresarial completo. Lo desarrollamos, lo integramos y lo mantenemos.</p>
+          <span class="section-tag">Lo que hacemos</span>
+          <h2 class="section-title">Soluciones digitales<br /><em>a la medida de tu empresa</em></h2>
+          <p class="section-desc">Cada proyecto es único. Diseñamos, desarrollamos e implementamos tecnología que realmente resuelve tus problemas de negocio.</p>
         </div>
 
-        <div class="servicios__grid">
+        <div class="services-grid">
 
           <!-- Card 1 -->
-          <article class="service-card reveal" data-delay="0">
-            <div class="service-card__icon-wrap">
-              <i class="fa-solid fa-globe"></i>
+          <div class="service-card reveal">
+            <div class="service-icon-wrap" style="--icon-color:#3b82f6">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
             </div>
-            <h3>Desarrollo Web</h3>
-            <p>Landings, e-commerce, portales corporativos y sitios institucionales. Rápidos, seguros y optimizados para convertir visitantes en clientes.</p>
-            <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> Diseño a medida</li>
-              <li><i class="fa-solid fa-check"></i> SEO técnico incluido</li>
-              <li><i class="fa-solid fa-check"></i> Mobile-first</li>
+            <h3 class="service-title">Páginas Web Profesionales</h3>
+            <p class="service-desc">Landing pages, sitios corporativos y e-commerce optimizados para conversión, velocidad y SEO. Tu primera impresión digital que vende 24/7.</p>
+            <ul class="service-features">
+              <li>Diseño responsive y moderno</li>
+              <li>Optimización SEO incluida</li>
+              <li>Integración con WhatsApp y redes</li>
             </ul>
-            <a href="#contacto" class="service-card__link">Quiero mi web <i class="fa-solid fa-arrow-right"></i></a>
-          </article>
+            <a href="#contacto" class="service-link">Quiero mi web <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
 
           <!-- Card 2 -->
-          <article class="service-card service-card--featured reveal" data-delay="1">
-            <div class="service-card__badge">Más solicitado</div>
-            <div class="service-card__icon-wrap">
-              <i class="fa-solid fa-server"></i>
+          <div class="service-card reveal reveal-delay-1">
+            <div class="service-icon-wrap" style="--icon-color:#8b5cf6">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 7h10M7 11h5"/></svg>
             </div>
-            <h3>Sistemas a medida</h3>
-            <p>CRM, ERP, sistemas de turnos, facturación, gestión de stock. Construimos exactamente lo que tu empresa necesita, sin pagar por lo que no usás.</p>
-            <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> CRM & ERP personalizado</li>
-              <li><i class="fa-solid fa-check"></i> Gestión de turnos</li>
-              <li><i class="fa-solid fa-check"></i> Reportes en tiempo real</li>
+            <h3 class="service-title">Sistemas a Medida</h3>
+            <p class="service-desc">CRM, ERP, gestión de turnos, inventarios y más. Software 100% personalizado para tu flujo de trabajo, sin pagar por lo que no usás.</p>
+            <ul class="service-features">
+              <li>CRM y gestión de clientes</li>
+              <li>ERP y control de inventario</li>
+              <li>Sistema de turnos online</li>
             </ul>
-            <a href="#contacto" class="service-card__link">Cotizar sistema <i class="fa-solid fa-arrow-right"></i></a>
-          </article>
+            <a href="#contacto" class="service-link">Quiero mi sistema <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
 
           <!-- Card 3 -->
-          <article class="service-card reveal" data-delay="2">
-            <div class="service-card__icon-wrap">
-              <i class="fa-solid fa-brain"></i>
+          <div class="service-card reveal reveal-delay-2 card-featured">
+            <div class="card-featured-badge">Más solicitado</div>
+            <div class="service-icon-wrap" style="--icon-color:#06b6d4">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><path d="M17 2l5 5-5 5"/><path d="M22 7h-5"/></svg>
             </div>
-            <h3>Automatización con IA</h3>
-            <p>Chatbots inteligentes, procesamiento de documentos, generación de respuestas automáticas y flujos de trabajo con inteligencia artificial real.</p>
-            <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> Chatbots con GPT</li>
-              <li><i class="fa-solid fa-check"></i> Clasificación automática</li>
-              <li><i class="fa-solid fa-check"></i> Análisis de datos</li>
+            <h3 class="service-title">Automatización con IA</h3>
+            <p class="service-desc">Eliminá tareas repetitivas. Implementamos flujos automatizados con inteligencia artificial que trabajan por vos mientras dormís.</p>
+            <ul class="service-features">
+              <li>Chatbots con IA para atención</li>
+              <li>Automatización de reportes</li>
+              <li>Procesamiento inteligente de datos</li>
             </ul>
-            <a href="#contacto" class="service-card__link">Automatizar ahora <i class="fa-solid fa-arrow-right"></i></a>
-          </article>
+            <a href="#contacto" class="service-link">Quiero automatizar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
 
           <!-- Card 4 -->
-          <article class="service-card reveal" data-delay="3">
-            <div class="service-card__icon-wrap">
-              <i class="fa-solid fa-plug"></i>
+          <div class="service-card reveal reveal-delay-3">
+            <div class="service-icon-wrap" style="--icon-color:#f59e0b">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
             </div>
-            <h3>Integraciones & APIs</h3>
-            <p>Conectamos tu sistema con WhatsApp Business, MercadoPago, AFIP, correo, redes sociales y cualquier herramienta que ya uses en tu negocio.</p>
-            <ul class="service-card__features">
-              <li><i class="fa-solid fa-check"></i> WhatsApp Business API</li>
-              <li><i class="fa-solid fa-check"></i> MercadoPago / DEBIN</li>
-              <li><i class="fa-solid fa-check"></i> AFIP / Facturación</li>
+            <h3 class="service-title">Integraciones y APIs</h3>
+            <p class="service-desc">Conectamos tu negocio con WhatsApp Business, MercadoPago, facturación electrónica AFIP y cualquier servicio que necesites.</p>
+            <ul class="service-features">
+              <li>WhatsApp Business API</li>
+              <li>MercadoPago y pagos online</li>
+              <li>AFIP / facturación electrónica</li>
             </ul>
-            <a href="#contacto" class="service-card__link">Conectar sistemas <i class="fa-solid fa-arrow-right"></i></a>
-          </article>
+            <a href="#contacto" class="service-link">Quiero integrar <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
 
         </div>
       </div>
     </section>
 
-    <!-- ===================== PROCESO ===================== -->
-    <section class="proceso section" id="proceso">
-      <div class="proceso__bg-line" aria-hidden="true"></div>
+    <!-- ============================================================
+         CÓMO TRABAJAMOS (PROCESO)
+    ============================================================ -->
+    <section class="section section-dark" id="proceso">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">// Cómo trabajamos</span>
-          <h2 class="section-title">De la idea al sistema<br /><em>en 4 pasos</em></h2>
+          <span class="section-tag">Nuestro método</span>
+          <h2 class="section-title">Cómo trabajamos<br /><em>paso a paso</em></h2>
+          <p class="section-desc">Un proceso claro y transparente para que siempre sepas en qué etapa está tu proyecto.</p>
         </div>
 
-        <div class="proceso__steps">
+        <div class="process-timeline">
 
-          <div class="step reveal" data-delay="0">
-            <div class="step__number">01</div>
-            <div class="step__content">
-              <div class="step__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-              <h3>Análisis</h3>
-              <p>Entendemos tu negocio, tus procesos y tus objetivos. Definimos el alcance y la solución técnica ideal antes de escribir una sola línea de código.</p>
+          <div class="process-step reveal">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              </div>
+              <h3>Análisis y Diagnóstico</h3>
+              <p>Entendemos tu negocio, tus procesos y tus objetivos. Relevamos qué tenés, qué necesitás y definimos la solución ideal antes de escribir una sola línea de código.</p>
+            </div>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step reveal reveal-delay-1">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Diseño y Desarrollo</h3>
+              <p>Construimos tu solución con tecnología moderna, código limpio y metodología ágil. Te mostramos avances semanales para que estés siempre al tanto del progreso.</p>
+            </div>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step reveal reveal-delay-2">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <h3>Implementación y Capacitación</h3>
+              <p>Ponemos en marcha el sistema con migración de datos, configuración completa y capacitamos a tu equipo para que lo use con confianza desde el primer día.</p>
+            </div>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step reveal reveal-delay-3">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <div class="step-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/></svg>
+              </div>
+              <h3>Soporte Continuo</h3>
+              <p>No desaparecemos después de la entrega. Te acompañamos con soporte técnico, actualizaciones y mejoras continuas para que tu sistema siempre rinda al máximo.</p>
             </div>
           </div>
 
-          <div class="step__connector" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></div>
-
-          <div class="step reveal" data-delay="1">
-            <div class="step__number">02</div>
-            <div class="step__content">
-              <div class="step__icon"><i class="fa-solid fa-code"></i></div>
-              <h3>Desarrollo</h3>
-              <p>Construimos tu solución con metodología ágil. Te mostramos avances semanales para que siempre sepas cómo va tu proyecto.</p>
-            </div>
-          </div>
-
-          <div class="step__connector" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></div>
-
-          <div class="step reveal" data-delay="2">
-            <div class="step__number">03</div>
-            <div class="step__content">
-              <div class="step__icon"><i class="fa-solid fa-rocket"></i></div>
-              <h3>Implementación</h3>
-              <p>Desplegamos el sistema en tu entorno, capacitamos a tu equipo y aseguramos que todo funcione perfectamente desde el primer día.</p>
-            </div>
-          </div>
-
-          <div class="step__connector" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></div>
-
-          <div class="step reveal" data-delay="3">
-            <div class="step__number">04</div>
-            <div class="step__content">
-              <div class="step__icon"><i class="fa-solid fa-headset"></i></div>
-              <h3>Soporte</h3>
-              <p>Te acompañamos después del lanzamiento con soporte técnico, actualizaciones y mejoras continuas para que tu sistema siempre evolucione.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== BENEFICIOS ===================== -->
-    <section class="beneficios section" id="beneficios">
-      <div class="container">
-        <div class="beneficios__inner">
-          <div class="beneficios__text reveal">
-            <span class="section-tag">// Por qué elegirnos</span>
-            <h2 class="section-title">Software que trabaja<br /><em>mientras vos descansás</em></h2>
-            <p class="section-sub">Automatizá tareas repetitivas, tomá mejores decisiones con datos en tiempo real y escalá sin contratar más personal.</p>
-            <a href="#contacto" class="btn btn--primary">Quiero empezar ahora</a>
-          </div>
-          <div class="beneficios__grid reveal reveal--delay-2">
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
-              <div>
-                <h4>Aumenta tus ventas</h4>
-                <p>Sistemas optimizados para convertir más y perder menos oportunidades.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-robot"></i></div>
-              <div>
-                <h4>Automatiza procesos</h4>
-                <p>Eliminá tareas manuales y repetitivas que le roban tiempo a tu equipo.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-clock"></i></div>
-              <div>
-                <h4>Ahorra tiempo real</h4>
-                <p>Lo que antes llevaba horas, ahora sucede en segundos de forma automática.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-layer-group"></i></div>
-              <div>
-                <h4>Escalable desde el día 1</h4>
-                <p>Arquitecturas que crecen con vos, sin necesidad de rehacer todo.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-chart-pie"></i></div>
-              <div>
-                <h4>Datos en tiempo real</h4>
-                <p>Reportes y dashboards para tomar decisiones con información concreta.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-item__icon"><i class="fa-solid fa-shield-halved"></i></div>
-              <div>
-                <h4>Seguro y confiable</h4>
-                <p>Sistemas robustos con backups, cifrado y alta disponibilidad.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== DEMOS ===================== -->
-    <section class="demos section" id="demos">
+    <!-- ============================================================
+         BENEFICIOS
+    ============================================================ -->
+    <section class="section" id="beneficios">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">// Demos</span>
-          <h2 class="section-title">Mirá lo que podemos<br /><em>construir para vos</em></h2>
-          <p class="section-sub">Estos son ejemplos reales de productos que desarrollamos. Cada uno puede adaptarse a tu rubro y necesidades.</p>
+          <span class="section-tag">¿Por qué elegirnos?</span>
+          <h2 class="section-title">Tecnología que<br /><em>genera resultados reales</em></h2>
         </div>
 
-        <div class="demos__grid">
+        <div class="benefits-grid">
 
-          <article class="demo-card reveal" data-delay="0">
-            <div class="demo-card__screen">
-              <div class="demo-screen demo-screen--crm">
-                <div class="ds-topbar">
-                  <span class="ds-dot"></span><span class="ds-dot"></span><span class="ds-dot"></span>
-                  <span class="ds-title">CRM · Gestión de Clientes</span>
-                </div>
-                <div class="ds-body">
-                  <div class="ds-sidebar">
-                    <div class="ds-nav active">Dashboard</div>
-                    <div class="ds-nav">Clientes</div>
-                    <div class="ds-nav">Oportunidades</div>
-                    <div class="ds-nav">Reportes</div>
-                  </div>
-                  <div class="ds-main">
-                    <div class="ds-kpis">
-                      <div class="ds-kpi"><span class="ds-kpi-val">$1.2M</span><span class="ds-kpi-lbl">Pipeline</span></div>
-                      <div class="ds-kpi"><span class="ds-kpi-val">89</span><span class="ds-kpi-lbl">Leads</span></div>
-                      <div class="ds-kpi"><span class="ds-kpi-val">62%</span><span class="ds-kpi-lbl">Conversión</span></div>
-                    </div>
-                    <div class="ds-table-row"><div class="ds-avatar">MR</div><div class="ds-info"><div class="ds-line-a"></div><div class="ds-line-b"></div></div><div class="ds-status ds-status--open">Activo</div></div>
-                    <div class="ds-table-row"><div class="ds-avatar">CL</div><div class="ds-info"><div class="ds-line-a"></div><div class="ds-line-b"></div></div><div class="ds-status ds-status--won">Ganado</div></div>
-                    <div class="ds-table-row"><div class="ds-avatar">JP</div><div class="ds-info"><div class="ds-line-a"></div><div class="ds-line-b"></div></div><div class="ds-status ds-status--open">Activo</div></div>
-                  </div>
-                </div>
-              </div>
+          <div class="benefit-card reveal">
+            <div class="benefit-icon" style="--c:#22c55e">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
             </div>
-            <div class="demo-card__info">
-              <span class="demo-card__tag">Sistema CRM</span>
-              <h3>Gestión de Clientes y Ventas</h3>
-              <p>Seguimiento de leads, pipeline de ventas, historial de clientes y reportes automáticos. Integrado con WhatsApp y email.</p>
-              <a href="#contacto" class="btn btn--outline btn--sm">Quiero este sistema <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </article>
+            <h4>Aumenta tus ventas</h4>
+            <p>Convertí más visitantes en clientes con sistemas optimizados para la conversión y la experiencia del usuario.</p>
+          </div>
 
-          <article class="demo-card reveal" data-delay="1">
-            <div class="demo-card__screen">
-              <div class="demo-screen demo-screen--turnos">
-                <div class="ds-topbar">
-                  <span class="ds-dot"></span><span class="ds-dot"></span><span class="ds-dot"></span>
-                  <span class="ds-title">Sistema de Turnos</span>
-                </div>
-                <div class="ds-body ds-body--turnos">
-                  <div class="ds-calendar">
-                    <div class="ds-cal-header">Abril 2025</div>
-                    <div class="ds-cal-grid">
-                      <div class="ds-day">L</div><div class="ds-day">M</div><div class="ds-day">X</div><div class="ds-day">J</div><div class="ds-day">V</div>
-                      <div class="ds-date ds-date--taken">7</div>
-                      <div class="ds-date ds-date--taken">8</div>
-                      <div class="ds-date ds-date--free">9</div>
-                      <div class="ds-date ds-date--taken">10</div>
-                      <div class="ds-date ds-date--free">11</div>
-                      <div class="ds-date ds-date--free">14</div>
-                      <div class="ds-date ds-date--today">15</div>
-                      <div class="ds-date ds-date--free">16</div>
-                      <div class="ds-date ds-date--taken">17</div>
-                      <div class="ds-date ds-date--free">18</div>
-                    </div>
-                  </div>
-                  <div class="ds-turnos-list">
-                    <div class="ds-turno"><span class="ds-time">09:00</span><span class="ds-patient">Ana G.</span><span class="ds-conf confirmed">✓</span></div>
-                    <div class="ds-turno"><span class="ds-time">10:30</span><span class="ds-patient">Luis M.</span><span class="ds-conf confirmed">✓</span></div>
-                    <div class="ds-turno ds-turno--next"><span class="ds-time">12:00</span><span class="ds-patient">María R.</span><span class="ds-conf pending">~</span></div>
-                    <div class="ds-turno"><span class="ds-time">15:00</span><span class="ds-patient">Pablo S.</span><span class="ds-conf confirmed">✓</span></div>
-                  </div>
-                </div>
-              </div>
+          <div class="benefit-card reveal reveal-delay-1">
+            <div class="benefit-icon" style="--c:#3b82f6">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><path d="M17 2l5 5-5 5M22 7h-5"/></svg>
             </div>
-            <div class="demo-card__info">
-              <span class="demo-card__tag">Sistema de Turnos</span>
-              <h3>Agenda Digital Inteligente</h3>
-              <p>Reservas online 24/7, recordatorios automáticos por WhatsApp, gestión de profesionales y reportes de ocupación.</p>
-              <a href="#contacto" class="btn btn--outline btn--sm">Quiero este sistema <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </article>
+            <h4>Automatizá procesos</h4>
+            <p>Eliminá tareas manuales y repetitivas. Tu equipo se enfoca en lo que importa mientras la tecnología trabaja sola.</p>
+          </div>
 
-          <article class="demo-card reveal" data-delay="2">
-            <div class="demo-card__screen">
-              <div class="demo-screen demo-screen--ecommerce">
-                <div class="ds-topbar">
-                  <span class="ds-dot"></span><span class="ds-dot"></span><span class="ds-dot"></span>
-                  <span class="ds-title">E-commerce</span>
-                </div>
-                <div class="ds-body ds-body--ecomm">
-                  <div class="ds-ecomm-header">
-                    <div class="ds-ecomm-logo"></div>
-                    <div class="ds-ecomm-search"></div>
-                    <div class="ds-ecomm-cart"><i class="fa-solid fa-cart-shopping"></i> 3</div>
-                  </div>
-                  <div class="ds-products">
-                    <div class="ds-product">
-                      <div class="ds-product-img"></div>
-                      <div class="ds-product-name"></div>
-                      <div class="ds-product-price">$12.500</div>
-                      <button class="ds-add-btn">+ Agregar</button>
-                    </div>
-                    <div class="ds-product">
-                      <div class="ds-product-img ds-product-img--b"></div>
-                      <div class="ds-product-name"></div>
-                      <div class="ds-product-price">$8.900</div>
-                      <button class="ds-add-btn">+ Agregar</button>
-                    </div>
-                    <div class="ds-product">
-                      <div class="ds-product-img ds-product-img--c"></div>
-                      <div class="ds-product-name"></div>
-                      <div class="ds-product-price">$21.000</div>
-                      <button class="ds-add-btn">+ Agregar</button>
-                    </div>
-                  </div>
-                  <div class="ds-mp-badge"><i class="fa-solid fa-credit-card"></i> MercadoPago integrado</div>
-                </div>
-              </div>
+          <div class="benefit-card reveal reveal-delay-2">
+            <div class="benefit-icon" style="--c:#f59e0b">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
-            <div class="demo-card__info">
-              <span class="demo-card__tag">E-commerce</span>
-              <h3>Tienda Online con MercadoPago</h3>
-              <p>Catálogo completo, carrito de compras, pagos con tarjeta y transferencia, gestión de stock y panel de administración.</p>
-              <a href="#contacto" class="btn btn--outline btn--sm">Quiero mi tienda <i class="fa-solid fa-arrow-right"></i></a>
+            <h4>Ahorrá tiempo y dinero</h4>
+            <p>Un sistema bien implementado puede ahorrar horas de trabajo diarias, reduciendo errores y costos operativos.</p>
+          </div>
+
+          <div class="benefit-card reveal reveal-delay-3">
+            <div class="benefit-icon" style="--c:#8b5cf6">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
             </div>
-          </article>
+            <h4>Escalable con tu empresa</h4>
+            <p>Diseñamos para el futuro. Tu sistema crece con vos: más usuarios, más módulos, más funcionalidades cuando las necesitás.</p>
+          </div>
+
+          <div class="benefit-card reveal reveal-delay-1">
+            <div class="benefit-icon" style="--c:#06b6d4">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <h4>100% responsive</h4>
+            <p>Todo lo que desarrollamos funciona perfecto en celulares, tablets y computadoras. Sin excepciones.</p>
+          </div>
+
+          <div class="benefit-card reveal reveal-delay-2">
+            <div class="benefit-icon" style="--c:#ef4444">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4>Seguro y confiable</h4>
+            <p>Implementamos buenas prácticas de seguridad, backups automáticos y monitoreo para que no pierdas nada.</p>
+          </div>
 
         </div>
       </div>
     </section>
 
-    <!-- ===================== TESTIMONIOS ===================== -->
-    <section class="testimonios section" id="testimonios">
+    <!-- ============================================================
+         DEMO / PRODUCTOS
+    ============================================================ -->
+    <section class="section section-dark" id="productos">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">// Testimonios</span>
-          <h2 class="section-title">Lo que dicen<br /><em>nuestros clientes</em></h2>
+          <span class="section-tag">Nuestros productos</span>
+          <h2 class="section-title">Mirá lo que<br /><em>podemos construir</em></h2>
+          <p class="section-desc">Ejemplos reales de sistemas que ya están ayudando a empresas como la tuya.</p>
         </div>
 
-        <div class="testimonios__grid">
+        <div class="products-grid">
 
-          <blockquote class="testimonial reveal" data-delay="0">
-            <div class="testimonial__stars">★★★★★</div>
-            <p>"Antes perdíamos clientes por no poder hacer un seguimiento eficiente. Con el CRM que nos hizo InDEX, cerramos un 40% más de ventas en los primeros dos meses. El equipo estuvo disponible en todo momento."</p>
-            <footer class="testimonial__footer">
-              <div class="testimonial__avatar">MR</div>
-              <div>
-                <strong>Mariana Rodríguez</strong>
-                <span>Directora Comercial · MR Inmobiliaria, Buenos Aires</span>
+          <div class="product-card reveal">
+            <div class="product-preview crm-preview">
+              <div class="preview-header">
+                <div class="preview-dots"><span></span><span></span><span></span></div>
+                <span class="preview-tag">CRM Pro</span>
               </div>
-            </footer>
-          </blockquote>
+              <div class="preview-body">
+                <div class="crm-layout">
+                  <div class="crm-col">
+                    <div class="crm-stage">Nuevos<div class="crm-card-mini"></div><div class="crm-card-mini"></div></div>
+                  </div>
+                  <div class="crm-col">
+                    <div class="crm-stage">En proceso<div class="crm-card-mini active"></div></div>
+                  </div>
+                  <div class="crm-col">
+                    <div class="crm-stage">Cerrados<div class="crm-card-mini won"></div><div class="crm-card-mini won"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="product-tag">CRM</span>
+              <h3>Gestión de Clientes</h3>
+              <p>Pipeline visual de ventas, historial de interacciones, seguimiento de oportunidades y reportes automáticos.</p>
+              <a href="#contacto" class="btn btn-outline btn-sm">Solicitar demo</a>
+            </div>
+          </div>
 
-          <blockquote class="testimonial testimonial--featured reveal" data-delay="1">
-            <div class="testimonial__stars">★★★★★</div>
-            <p>"Teníamos miedo de digitalizarnos porque no sabíamos por dónde empezar. InDEX nos guió desde el análisis hasta la implementación. Hoy nuestros pacientes reservan turnos solos por WhatsApp y nosotros recibimos el recordatorio automático. Un cambio total."</p>
-            <footer class="testimonial__footer">
-              <div class="testimonial__avatar">LC</div>
-              <div>
-                <strong>Dr. Luis Castillo</strong>
-                <span>Médico clínico · Centro de Salud Castillo, Córdoba</span>
+          <div class="product-card reveal reveal-delay-1">
+            <div class="product-preview turnos-preview">
+              <div class="preview-header">
+                <div class="preview-dots"><span></span><span></span><span></span></div>
+                <span class="preview-tag">TurnApp</span>
               </div>
-            </footer>
-          </blockquote>
+              <div class="preview-body">
+                <div class="calendar-mini">
+                  <div class="cal-header-mini">Abril 2025</div>
+                  <div class="cal-grid-mini">
+                    <div class="cal-cell"></div><div class="cal-cell"></div><div class="cal-cell busy"></div><div class="cal-cell"></div><div class="cal-cell busy"></div>
+                    <div class="cal-cell busy"></div><div class="cal-cell"></div><div class="cal-cell"></div><div class="cal-cell busy"></div><div class="cal-cell today"></div>
+                    <div class="cal-cell"></div><div class="cal-cell busy"></div><div class="cal-cell"></div><div class="cal-cell"></div><div class="cal-cell busy"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="product-tag">Turnos</span>
+              <h3>Sistema de Turnos Online</h3>
+              <p>Reservas 24/7 por web o WhatsApp. Confirmaciones automáticas, recordatorios y gestión de agenda en tiempo real.</p>
+              <a href="#contacto" class="btn btn-outline btn-sm">Solicitar demo</a>
+            </div>
+          </div>
 
-          <blockquote class="testimonial reveal" data-delay="2">
-            <div class="testimonial__stars">★★★★★</div>
-            <p>"La tienda online que desarrollaron integró MercadoPago en menos de una semana. Las ventas online ya representan el 35% de nuestra facturación total. Totalmente recomendable."</p>
-            <footer class="testimonial__footer">
-              <div class="testimonial__avatar">JP</div>
-              <div>
-                <strong>Juan Pablo Ferreyra</strong>
-                <span>Dueño · Ferretería El Clavo, Rosario</span>
+          <div class="product-card reveal reveal-delay-2">
+            <div class="product-preview ecommerce-preview">
+              <div class="preview-header">
+                <div class="preview-dots"><span></span><span></span><span></span></div>
+                <span class="preview-tag">ShopMax</span>
               </div>
-            </footer>
-          </blockquote>
+              <div class="preview-body">
+                <div class="shop-mini">
+                  <div class="shop-product-mini">
+                    <div class="shop-img-mini"></div>
+                    <div class="shop-info-mini">
+                      <div class="shop-line w70"></div>
+                      <div class="shop-line w40 price"></div>
+                      <div class="shop-btn-mini"></div>
+                    </div>
+                  </div>
+                  <div class="shop-product-mini">
+                    <div class="shop-img-mini"></div>
+                    <div class="shop-info-mini">
+                      <div class="shop-line w50"></div>
+                      <div class="shop-line w35 price"></div>
+                      <div class="shop-btn-mini"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="product-tag">E-commerce</span>
+              <h3>Tienda Online</h3>
+              <p>Catálogo de productos, carrito de compras, MercadoPago integrado y panel de administración completo.</p>
+              <a href="#contacto" class="btn btn-outline btn-sm">Solicitar demo</a>
+            </div>
+          </div>
 
         </div>
       </div>
     </section>
 
-    <!-- ===================== CTA URGENCIA ===================== -->
-    <section class="cta-urgencia section" id="planes">
-      <div class="cta-urgencia__bg" aria-hidden="true"></div>
+    <!-- ============================================================
+         TESTIMONIOS
+    ============================================================ -->
+    <section class="section" id="testimonios">
       <div class="container">
-        <div class="cta-urgencia__inner reveal">
-          <div class="cta-urgencia__badge">
-            <i class="fa-solid fa-fire"></i> Cupos limitados este mes
+        <div class="section-header reveal">
+          <span class="section-tag">Lo que dicen nuestros clientes</span>
+          <h2 class="section-title">Empresas que ya<br /><em>transformaron su negocio</em></h2>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              "Implementamos el sistema de turnos y en el primer mes reducimos un 70% las llamadas para reservar. Ahora los pacientes reservan solos desde el celular. El equipo de TradixIA fue increíble durante todo el proceso."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="--bg:#3b82f6">MR</div>
+              <div class="author-info">
+                <strong>Dra. Marina Rodríguez</strong>
+                <span>Clínica Dental Rodríguez · Rosario</span>
+              </div>
+            </div>
           </div>
-          <h2>¿Listo para llevar<br /><em>tu negocio al siguiente nivel?</em></h2>
-          <p>Hablemos. La primera consulta es gratuita y sin compromiso. Te contamos exactamente qué podemos hacer por tu empresa.</p>
-          <div class="cta-urgencia__ctas">
-            <a href="#contacto" class="btn btn--primary btn--xl">
-              <i class="fa-solid fa-paper-plane"></i> Solicitar presupuesto gratis
+
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              "Teníamos todo en planillas de Excel y perdíamos ventas por no tener información actualizada. Con el CRM de TradixIA ahora nuestro equipo comercial cerró un 35% más de operaciones en el trimestre. Vale cada peso."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="--bg:#8b5cf6">CL</div>
+              <div class="author-info">
+                <strong>Carlos López</strong>
+                <span>Constructora CL Obras · Santa Fe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial-stars">★★★★★</div>
+            <blockquote>
+              "La integración con WhatsApp y MercadoPago que hicieron fue un antes y un después para nuestra tienda. Los pedidos se procesan solos y los cobros también. TradixIA entiende lo que necesita una PyME argentina."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="--bg:#22c55e">SG</div>
+              <div class="author-info">
+                <strong>Sofía Guerrero</strong>
+                <span>Boutique Sofí Style · Rosario</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA / PLANES
+    ============================================================ -->
+    <section class="section cta-section" id="planes">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <div class="cta-content">
+            <div class="cta-urgency">
+              <span class="pulse-dot"></span>
+              Cupos limitados este mes · Solo quedan 3 proyectos disponibles
+            </div>
+            <h2>¿Listo para llevar tu negocio<br />al siguiente nivel?</h2>
+            <p>Pedí tu consulta gratuita ahora. Te explicamos qué tecnología se adapta mejor a tu empresa, sin compromiso y sin tecnicismos.</p>
+            <div class="cta-buttons">
+              <a href="#contacto" class="btn btn-primary btn-xl">
+                Solicitar presupuesto gratuito
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://wa.me/5493413000000?text=Hola%20TradixIA!%20Quiero%20saber%20más%20sobre%20sus%20servicios" target="_blank" rel="noopener" class="btn btn-whatsapp btn-xl">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                Hablar por WhatsApp
+              </a>
+            </div>
+            <p class="cta-disclaimer">Sin compromiso · Respuesta en menos de 24 horas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACTO
+    ============================================================ -->
+    <section class="section section-dark" id="contacto">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Escribinos</span>
+          <h2 class="section-title">Hablemos de<br /><em>tu proyecto</em></h2>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Info -->
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Ubicación</strong>
+                <span>Rosario, Santa Fe, Argentina</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.9-.9a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.22 16z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+54 9 341 300-0000</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>hola@tradixia.com</span>
+              </div>
+            </div>
+            <a href="https://wa.me/5493413000000?text=Hola%20TradixIA!%20Quiero%20una%20consulta%20gratuita" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg" style="margin-top:2rem">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              Chatear por WhatsApp
             </a>
-            <a href="https://wa.me/5491112345678?text=Hola%20InDEX%2C%20quiero%20información%20sobre%20sus%20servicios" target="_blank" class="btn btn--whatsapp btn--xl">
-              <i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp
-            </a>
-          </div>
-          <p class="cta-urgencia__disclaimer">Sin tarjeta de crédito · Respuesta en menos de 24h · Atención personalizada</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== CONTACTO ===================== -->
-    <section class="contacto section" id="contacto">
-      <div class="container">
-        <div class="contacto__inner">
-
-          <div class="contacto__info reveal">
-            <span class="section-tag">// Contacto</span>
-            <h2 class="section-title">Hablemos de<br /><em>tu proyecto</em></h2>
-            <p>Contanos qué necesitás y te respondemos con una propuesta clara en menos de 24 horas.</p>
-
-            <div class="contacto__details">
-              <div class="contacto__item">
-                <i class="fa-brands fa-whatsapp"></i>
-                <a href="https://wa.me/5491112345678" target="_blank">+54 9 11 1234-5678</a>
-              </div>
-              <div class="contacto__item">
-                <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:hola@indexdev.com.ar">hola@indexdev.com.ar</a>
-              </div>
-              <div class="contacto__item">
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Buenos Aires, Argentina · Trabajo remoto en todo el país</span>
-              </div>
-            </div>
-
-            <div class="contacto__social">
-              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            </div>
           </div>
 
-          <!-- Formulario -->
-          <form class="contacto__form reveal reveal--delay-2" id="contactForm" novalidate>
-            <div class="form-group">
-              <label for="nombre">Nombre completo *</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Juan García" required />
+          <!-- Form -->
+          <form class="contact-form reveal reveal-delay-1" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nombre completo *</label>
+                <input type="text" id="name" name="name" placeholder="Juan García" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="juan@empresa.com" required />
+              </div>
             </div>
             <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" placeholder="juan@empresa.com" required />
+              <label for="company">Empresa (opcional)</label>
+              <input type="text" id="company" name="company" placeholder="Mi Empresa S.A." />
             </div>
             <div class="form-group">
-              <label for="empresa">Empresa / Rubro</label>
-              <input type="text" id="empresa" name="empresa" placeholder="Mi Empresa S.A." />
-            </div>
-            <div class="form-group">
-              <label for="servicio">¿Qué necesitás?</label>
-              <select id="servicio" name="servicio">
-                <option value="">Seleccioná un servicio…</option>
-                <option>Desarrollo web</option>
+              <label for="service">¿Qué servicio te interesa?</label>
+              <select id="service" name="service">
+                <option value="">Seleccioná una opción</option>
+                <option>Página web</option>
                 <option>Sistema a medida (CRM, ERP, etc.)</option>
-                <option>Sistema de turnos</option>
-                <option>E-commerce</option>
                 <option>Automatización con IA</option>
-                <option>Integraciones (WhatsApp, MercadoPago…)</option>
-                <option>Otro</option>
+                <option>Integración con APIs</option>
+                <option>Otro / No sé todavía</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="mensaje">Contanos tu idea *</label>
-              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tengo una empresa de… y necesito…" required></textarea>
+              <label for="message">Contanos de tu proyecto *</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describí brevemente qué necesitás o qué problema querés resolver…" required></textarea>
             </div>
-            <button type="submit" class="btn btn--primary btn--full">
-              <i class="fa-solid fa-paper-plane"></i> Enviar consulta
+            <button type="submit" class="btn btn-primary btn-lg btn-full" id="submitBtn">
+              Enviar consulta gratuita
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
             </button>
-            <div class="form-success" id="formSuccess" role="alert">
-              <i class="fa-solid fa-circle-check"></i> ¡Gracias! Te contactamos en menos de 24h.
+            <p class="form-privacy">🔒 Tus datos están seguros. Nunca los compartiremos con terceros.</p>
+
+            <!-- Success message -->
+            <div class="form-success" id="formSuccess">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <strong>¡Mensaje enviado!</strong>
+              <p>Te vamos a contactar en menos de 24 horas. ¡Gracias por elegir TradixIA!</p>
             </div>
           </form>
 
@@ -641,58 +666,84 @@
 
   </main>
 
-  <!-- ===================== FOOTER ===================== -->
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
   <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="#" class="navbar__logo">
-          <span class="logo-bracket">[</span>InDEX<span class="logo-bracket">]</span>
-        </a>
-        <p>Desarrollamos el software que tu negocio necesita para crecer.</p>
-        <p class="footer__country"><i class="fa-solid fa-location-dot"></i> Buenos Aires, Argentina</p>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-mark">T</span>
+            <span class="logo-text">TradixIA</span>
+          </a>
+          <p>Desarrollamos sistemas inteligentes que hacen crecer los negocios argentinos.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Páginas Web</a></li>
+            <li><a href="#servicios">Sistemas a Medida</a></li>
+            <li><a href="#servicios">Automatización IA</a></li>
+            <li><a href="#servicios">Integraciones API</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#proceso">Cómo trabajamos</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li>Rosario, Santa Fe, Argentina</li>
+            <li>hola@tradixia.com</li>
+            <li>+54 9 341 300-0000</li>
+          </ul>
+        </div>
+
       </div>
-      <div class="footer__links">
-        <h4>Servicios</h4>
-        <a href="#servicios">Desarrollo Web</a>
-        <a href="#servicios">Sistemas a medida</a>
-        <a href="#servicios">Automatización IA</a>
-        <a href="#servicios">Integraciones</a>
-      </div>
-      <div class="footer__links">
-        <h4>Empresa</h4>
-        <a href="#proceso">Cómo trabajamos</a>
-        <a href="#demos">Demos</a>
-        <a href="#testimonios">Clientes</a>
-        <a href="#contacto">Contacto</a>
-      </div>
-      <div class="footer__links">
-        <h4>Seguinos</h4>
-        <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-        <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
-        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-        <a href="https://wa.me/5491112345678" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <div class="container">
-        <p>© 2025 InDEX Software · Todos los derechos reservados · Buenos Aires, Argentina</p>
-        <p><a href="#">Política de privacidad</a> · <a href="#">Términos de uso</a></p>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 TradixIA. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+        </div>
       </div>
     </div>
   </footer>
 
-  <!-- Botón WhatsApp flotante -->
-  <a
-    href="https://wa.me/5491112345678?text=Hola%20InDEX%2C%20quiero%20consultar%20sobre%20sus%20servicios"
-    class="whatsapp-float"
-    target="_blank"
-    aria-label="Contactar por WhatsApp"
-  >
-    <i class="fa-brands fa-whatsapp"></i>
-    <span class="whatsapp-float__tooltip">¿Hablamos?</span>
+  <!-- WhatsApp FAB -->
+  <a href="https://wa.me/5493413000000?text=Hola%20TradixIA!%20Quiero%20información" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    <span class="fab-tooltip">¿Hablamos?</span>
   </a>
 
-  <!-- Script principal -->
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
   <script src="script.js"></script>
 </body>
 </html>
